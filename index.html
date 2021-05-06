@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="assets/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="icon" type="image/png" href="assets/images/play_button.png" />
+    <title>Add your friends!</title>
+  </head>
+  <body>
+    <div class="hero-image">
+      <div class="hero-text">
+        <h1 id="name">Forgetting your friends?</h1>
+        <h1>Not anymore</h1>
+      </div>
+    </div>
+
+    <div class="wrapper">
+      <div id="stats"></div>
+      <div class="row">
+        <div class="column">
+          <h1>Manually</h1>
+          <input type="text" id="add_input" placeholder="Friend's name" />
+          <button id="add" class="add">Add</button>
+          <br />
+          <!-- <input type="text" id="del_input" onfocus="this.value=''" />
+          <button id="delete">Delete</button> -->
+        </div>
+        <div class="column">
+          <h1>Voice Recognition</h1>
+          <div class="column2">
+            <button id="talk" class="add">Speak</button>
+            <div id="listening"></div>
+          </div>
+          <br />
+          <div id="added"></div>
+        </div>
+        <div class="column">
+          <h1>Friends List</h1>
+          <div id="friends"></div>
+        </div>
+      </div>
+    </div>
+    <br />
+    <script
+      src="https://kit.fontawesome.com/0836a1672a.js"
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="assets/app.js"></script>
+  </body>
+</html>
